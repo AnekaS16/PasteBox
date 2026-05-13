@@ -1,20 +1,46 @@
-PasteBox
-PasteBox is a full-stack web application designed for quick and easy code or text sharing. Think of it as a personal, streamlined version of Pastebin where you can store snippets, notes, or logs and share them via unique links.
+# 📦 PasteBox
 
-🚀 Features
-Snippet Creation: Easily paste and save text or code blocks.
+**PasteBox** is a full-stack web application designed for quick and easy code or text sharing.  
+Think of it as a personal, streamlined version of **Pastebin** where users can store snippets, notes, or logs and share them through unique links.
 
-Unique URLs: Every "paste" generates a dedicated link for sharing.
+---
 
-MERN Stack Power: Built with a robust backend and a responsive frontend.
+## 🚀 Features
 
-Clean UI: Minimalist design to focus on your content.
+✨ **Snippet Creation**  
+Easily paste and save text or code blocks.
 
-🛠️ Tech Stack
-Frontend: React.js (located in the /client directory)
+🔗 **Unique URLs**  
+Every paste generates a dedicated shareable link.
 
-Backend: Node.js & Express.js (located in the /server directory)
+⚡ **MERN Stack Powered**  
+Built using a robust and scalable MERN stack architecture.
 
-Database: MongoDB for persistent storage.
+🎨 **Clean & Minimal UI**  
+Simple and aesthetic interface focused entirely on content.
 
-Styling: CSS3 for custom, aesthetic layouts.
+📂 **Persistent Storage**  
+All snippets are securely stored using MongoDB.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| **React.js** | Frontend UI |
+| **Node.js** | Backend Runtime |
+| **Express.js** | Server Framework |
+| **MongoDB** | Database |
+| **CSS3** | Styling & Layout |
+
+---
+
+## 📁 Project Structure
+
+```bash
+PasteBox/
+│
+├── client/     # React Frontend
+├── server/     # Node + Express Backend
+└── README.md
